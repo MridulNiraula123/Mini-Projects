@@ -29,8 +29,8 @@ if answer.lower() == "minecraft":
 else:
     print("Incorrect!")
 
-answer = input("Which Country has more obese people than bycicles?   ")
-if answer.lower() == ("usa","united states of america"):
+answer = input("Which Country has more obese people than bycycles? ")
+if answer.lower() == ("usa"):
     print('Correct!')
     score+= 1
 else:
