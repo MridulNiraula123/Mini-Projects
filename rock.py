@@ -1,9 +1,10 @@
-#this imports modules
+# this imports modules
 import random
-#variables
+
+# variables
 user_wins = 0
 computer_wins = 0
-#options
+# options
 options = ["rock", "paper", "scissors"]
 
 while True:
@@ -28,8 +29,8 @@ while True:
         user_wins += 1
 
     elif user_input == "scissors" and computer_pick == "paper":
-          print("You won!")
-          user_wins += 1
+        print("You won!")
+        user_wins += 1
 
     else:
         print("You Lost")
